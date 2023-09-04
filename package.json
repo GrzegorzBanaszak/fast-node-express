@@ -1,0 +1,22 @@
+{
+  "name": "fast-node-express",
+  "version": "0.0.1",
+  "description": "Create fast node with express project",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc && rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.28.1",
+    "typescript": "^5.2.2",
+    "rollup-plugin-dts": "^6.0.1"
+  }
+}
